@@ -22,7 +22,7 @@ pub fn rmdir(path : String) -> Unit {
     _ => return
   }
 
-  println("rmdir \{path} success")
+  @meow.meow("remove dir \{path} success!")
 }
 
 ///|
