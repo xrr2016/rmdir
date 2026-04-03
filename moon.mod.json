@@ -1,9 +1,9 @@
 {
   "name": "xrr2016/rmdir",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "deps": {
     "moonbitlang/x": "0.4.41",
-    "xrr2016/meow": "0.5.0"
+    "xrr2016/meow": "0.8.0"
   },
   "readme": "README.mbt.md",
   "repository": "https://github.com/xrr2016/rmdir",
