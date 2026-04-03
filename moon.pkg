@@ -1,0 +1,8 @@
+import {
+  "moonbitlang/x/fs" @fs,
+  "moonbitlang/core/env" @env,
+}
+
+options(
+  "is-main": true,
+)
