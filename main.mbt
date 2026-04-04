@@ -13,4 +13,5 @@ fn main {
   let args = get_args()
   let dirPath = if args.length() > 0 { args[0] } else { return }
   @lib.rmdir(dirPath)
+  @meow.say("remove dir \{dirPath} success!")
 }

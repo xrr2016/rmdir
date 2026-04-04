@@ -21,6 +21,4 @@ pub fn rmdir(path : String) -> Unit {
   @fs.remove_dir(path) catch {
     _ => return
   }
-
-  @meow.say("remove dir \{path} success!")
 }

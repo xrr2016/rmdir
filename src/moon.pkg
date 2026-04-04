@@ -1,4 +1,3 @@
 import {
   "moonbitlang/x/fs" @fs,
-  "xrr2016/meow/src" @meow,
 }
