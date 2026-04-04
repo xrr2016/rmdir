@@ -1,7 +1,6 @@
 import {
-  "moonbitlang/x/fs" @fs,
-  "xrr2016/meow/src" @meow,
   "moonbitlang/core/env" @env,
+  "xrr2016/rmdir/src" @lib,
 }
 
 options(

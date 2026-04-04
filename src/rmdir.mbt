@@ -24,10 +24,3 @@ pub fn rmdir(path : String) -> Unit {
 
   @meow.say("remove dir \{path} success!")
 }
-
-///|
-fn main {
-  let args = @env.args()
-  let dirPath = if args.length() > 1 { args[1] } else { return }
-  rmdir(dirPath)
-}
