@@ -2,7 +2,6 @@
 package "xrr2016/rmdir"
 
 // Values
-pub fn rmdir(String) -> Unit
 
 // Errors
 
