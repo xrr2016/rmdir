@@ -4,17 +4,15 @@
 
 ///|
 pub fn rmdir(path : String) -> Unit {
-  let exist = @fs.path_exists(path)
-
-  if !exist {
-    println("rmdir \{path} not exist")
+  guard @fs.path_exists(path) else {
+    println("\{path} not exist")
     return
   }
 
   let is_dir = @fs.is_dir(path) catch { _ => return }
 
-  if !is_dir {
-    println("rmdir \{path} not a dir")
+  guard is_dir else {
+    println("\{path} not a dir")
     return
   }
 
